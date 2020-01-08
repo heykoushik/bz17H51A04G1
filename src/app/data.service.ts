@@ -12,4 +12,7 @@ export class DataService {
    getUser(){
      return this.http.get("https://jsonplaceholder.typicode.com/users")
    }
+   getColor(){
+     return this.http.get("https://reqres.in/api/unknown")
+   }
 }
