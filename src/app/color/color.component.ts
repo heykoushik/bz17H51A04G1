@@ -11,7 +11,8 @@ colors;
   constructor(private data: DataService ) { }
 
   ngOnInit() {
-    this.data.getColor().subscribe(d => { this.colors= d;
+    this.data.getColor().subscribe(d => { 
+      this.colors= d;
   })
 }
 }
